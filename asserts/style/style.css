@@ -1,8 +1,78 @@
 body{
-
+  background-color: #2f4f4f;
 }
 
-.container{
+.icon{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  height: 5px;
+  font-size: 5px;
+  
 }
+
+.list{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  font-size: 20px;
+}
+
+.statement{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.son{
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chelsy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #0000ff;
+  color: white;
+  width: 150px;
+  height: 30px;
+}
+
+.child{
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  color: brown;
+  background: white;
+  width: 150px;
+  height: 30px;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  }
+
+  .title{
+    height: 70px;
+  }
